@@ -12,3 +12,13 @@ To do this, a homography is needed which requires at least 4 matching points.
 2. The matched points are used as keypoints and compared to the reference keypoints via K-Nearest Neighbors and SIFT
 3. The first 4 correspondences (matches between city vertices in the input image and the reference) are used to compute a homography matrix
 4. The transformation is used to reshape the input image to be like the reference and the output is saved in the ouput folder.
+
+## Results:
+
+Input #1:
+
+(photos/0523152031a.jpg)
+
+Output #1:
+
+(output/res_0523152031a.jpg.png)
