@@ -12,7 +12,10 @@ To do this, a homography is needed which requires at least 4 matching points.
 2. The matched points are used as keypoints and compared to the reference keypoints via K-Nearest Neighbors and SIFT
 3. The first 4 correspondences (matches between city vertices in the input image and the reference) are used to compute a homography matrix
 4. The transformation is used to reshape the input image to be like the reference and the output is saved in the ouput folder.
+5. Additionally, the output image is overlaid with the city names of the 4 keypoints used in the homography, as well as green rectangles around where each train location is.
 
 ## Results:
 
 [Input #1](photos/0523152031a.jpg) [Output #1](output/res_0523152031a.jpg.png)
+[Input #2](photos/0523152125.jpg) [Output #2](output/res_0523152125.jpg.png)
+[Input #3](photos/0526152249.jpg) [Output #3](output/res_0526152249.jpg.png)
