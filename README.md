@@ -15,10 +15,4 @@ To do this, a homography is needed which requires at least 4 matching points.
 
 ## Results:
 
-Input #1:
-
-(photos/0523152031a.jpg)
-
-Output #1:
-
-(output/res_0523152031a.jpg.png)
+[Input #1](photos/0523152031a.jpg) [Output #1](output/res_0523152031a.jpg.png)
